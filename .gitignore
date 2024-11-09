@@ -39,6 +39,8 @@ override.tf.json
 .terraformrc
 terraform.rc
 
+.terraform.lock.hcl
+
 ## .NET CORE GITIGNORE
 # From .NET Core 3.0 you can use the command: `dotnet new gitignore` to generate a customizable .gitignore file
 
