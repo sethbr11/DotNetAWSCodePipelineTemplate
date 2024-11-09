@@ -1,0 +1,17 @@
+variable "app_name" {
+  description = "Name of the .NET app"
+  type        = string
+  default     = "dotnet-app"
+}
+
+variable "aws_access_key" {
+  description = "The AWS access key"
+  type        = string
+  default     = ""
+}
+
+variable "aws_secret_key" {
+  description = "The AWS secret key"
+  type        = string
+  default     = ""
+}

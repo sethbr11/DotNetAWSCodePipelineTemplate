@@ -1,3 +1,5 @@
+## TERRAFORM GITIGNORE
+
 # Local .terraform directories
 **/.terraform/*
 
@@ -15,6 +17,7 @@ crash.*.log
 # to change depending on the environment.
 *.tfvars
 *.tfvars.json
+variables.tf
 
 # Ignore override files as they are usually used to override resources locally and so
 # are not checked in
@@ -35,3 +38,39 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+## .NET CORE GITIGNORE
+# From .NET Core 3.0 you can use the command: `dotnet new gitignore` to generate a customizable .gitignore file
+
+*.swp
+*.*~
+project.lock.json
+.DS_Store
+*.pyc
+
+# Visual Studio Code
+.vscode
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+build/
+bld/
+[Bb]in/
+[Oo]bj/
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Visual Studio 2015
+.vs/

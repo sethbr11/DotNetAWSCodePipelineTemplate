@@ -1,0 +1,7 @@
+* text=auto
+*.cs   text
+*.cshtml text
+*.json  text
+*.css   text
+*.js    text
+*.html  text
